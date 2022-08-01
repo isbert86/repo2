@@ -1,0 +1,213 @@
+
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    background: fixed;
+    text-decoration: none;
+	margin: 0;
+	padding: 0; 
+}
+
+html {
+	font-size: 62.5%;
+}
+
+.imgLogo, .imgquien{ 
+    max-width: 100%; 
+}
+header {
+justify-content: space-between;
+}
+
+header nav ul li {
+    color: black;
+    font-size: 1.5rem;
+    display: inline-block;
+    justify-content: space-around;
+    border: 1px solid gray;
+    border-radius: 55%;
+    padding: 1.5rem;
+    background-color: #18658A  
+}
+header nav ul li :hover {
+    color: white;
+}
+
+.estiloHead {
+    font-size: 2rem;
+    font-family: sans-serif;
+    text-align: center;
+    background-image: url(../Imagenes/imgenppalgrande.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: header;   
+}
+
+/*----------CCS_index---------*/
+
+.estiloServicio {
+    font-size: 4rem;
+    font-family: sans-serif;
+    text-align: center;
+    background-image: url(../Imagenes/Nuestros\ Servicios.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 12rem 0;   
+}
+
+.estiloFaciales {
+
+     font-size: 4rem;
+    font-family: sans-serif;
+    text-align: center;
+    background-image: url(../Imagenes/inyecto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 12rem 0;  
+}
+
+h3.estiloCorporales {
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 4rem;
+    font-family: sans-serif;
+    text-align: center;
+    background-image: url(../Imagenes/cuerpo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 12rem 0;  
+}
+
+h3.estiloCapilares {
+
+    font-size: 4rem;
+    font-family: sans-serif;
+    text-align: center;
+    background-image: url(../Imagenes/plasmamasculino.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 12rem 0;   
+}
+
+.estiloQuienes {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;     
+    background-color: #18658A;
+}
+
+h2.titleQuienes {
+    font-size: 4rem;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 5rem 0;
+    justify-items: center;
+}
+
+.Fixed {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+
+h2.estiloContacto {
+    font-size: 3rem;
+    text-decoration: none;
+    grid-area: footer;  
+    justify-items: center;  
+}
+
+.contacto{
+background-color: #18658a;
+
+}
+
+ul .estiloRedes {
+ list-style: none;
+}
+.imgRedes{
+max-width: 25px;
+max-height: 25px;
+border-radius: 25%;
+}
+
+/*----------CCS_TRATAMIENTOS---------*/
+
+
+.titulos{
+        font-size: 2rem;
+        margin-top: 3rem;
+    text-align: center;
+}
+
+.contfacial{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
+.contcorp{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contcap{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+}
+
+.pie{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.imgtrat{
+    height: auto;
+    max-width:auto;
+    max-height: auto;
+    margin-top: 5rem;
+    margin: 3rem;
+    align-self: center;
+}
+
+.txt, .titulos{
+    margin-top: 3rem;
+    text-align: justify;
+}
+
+/*---------------tablet----------*/
+
+@media screen and (max-width: 768px){
+
+.contfacial, .contcap, .contcorp, .Fixed, .pie, .estiloQuienes{ 
+
+   grid-template-columns: none;
+   justify-content: center;
+   
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
