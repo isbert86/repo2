@@ -189,7 +189,27 @@ border-radius: 25%;
    
 }
 }
+/*---------------Animacion----------*/
 
+.estiloFaciales:hover{
+    transform: scale(125%);
+     transition: all 1s;
+    }
+    
+    .estiloCorporales:hover{
+        transform: scale(125%);
+        transition: all 1s;
+       
+       }
+    .estiloCapilares:hover{
+        transform: scale(125%);
+        transition: all 1s;
+    }
+    
+    .estiloServicio:hover{
+        transform: scale(125%);
+        transition: all 1s;
+    }
 
 
 
